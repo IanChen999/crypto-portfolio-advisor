@@ -1,6 +1,6 @@
-# crypto-portfolio-advisor
+# CS289A Project: Crypto Portfolio Recommender System
 ## Sample Dashboard
-Crypto Portfolio Advisor is a cryptocurrency portfo risk and recommendation tool powered by machine learning algorithm and front-end web services that aims for helping different levels of investors to achieve a more reliable cryptocurrency investment solution. This project was designed by the Crypto Robo Advisor team from UC Berkeley Data-X course. This project is mentored and advised by CEO of Anchain.ai, Victor Fang.
+Crypto Portfolio Advisor is a cryptocurrency portfo risk and recommendation tool powered by machine learning algorithm and front-end web services that aims for helping different levels of investors to achieve a more reliable cryptocurrency investment solution.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/39391660/144360945-fc017110-767c-4b2b-bb34-068eedb318ce.gif)
 
@@ -33,6 +33,8 @@ Here is a breakdown of the ```engine``` folder,
 |**calculate_risk.py** |Applies portfolio standard deviation formula to build correlation structures and calculated risk score based on variance      |
 |**external.ipynb**    |Core notebook that contains data cleaning, anvil framework, portfolio risk functions, SARIMA models, dynamic asset numbers, and data visualization with ```plotly```  |
 |**portfolio_profit_pred.ipynb** |Foundation of **external.ipynb**, including data preprocessing, model selections/simulations, and risk scoring 1.0  |
+|**BoostedTrees.ipynb**|Sets the benchmark for the crypto recommender system; contains different machine learning algorithms to predict the daily bitcoin value|
+|**ProphetPrediction.ipynb**|Using Prophet model to predict BTC price in the goal of comparing with the ARIMA/SARIMAX model used in external.ipynb. This helps set the model engine.|
 
 ## Scraping
 
@@ -75,13 +77,11 @@ We use **crypto-markets.csv**
 - Beautiful Soup
 - plotly
 - SARIMAX
+- Prophet
 - Bayesian Regression
 
 ## Team
-Our team is formed by UC Berkeley students from various majors and backgrounds:
+Our team is formed by UC Berkeley grad students:
 
-- Saahil Shangle      --*Business Administration BS, Data Science BA*
-- Ian Chen            --*Development Engineering MDE*
-- Gabriel Khouri-Haddad       --*Computer Science BA*
-- Sora Kang         --*Master of Design MDES*
-- Suvam Nayak       --*Data Science BA*
+- Ian(Yijun) Chen            --*Development Engineering MDE*
+- Jiang Qu                   --*Development Engineering MDE*
