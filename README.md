@@ -1,6 +1,6 @@
-# CS289A Project: Crypto Portfolio Recommender System
+# crypto-portfolio-advisor
 ## Sample Dashboard
-Crypto Portfolio Advisor is a cryptocurrency portfo risk and recommendation tool powered by machine learning algorithm and front-end web services that aims for helping different levels of investors to achieve a more reliable cryptocurrency investment solution.
+Crypto Portfolio Advisor is a cryptocurrency portfo risk and recommendation tool powered by machine learning algorithm and front-end web services that aims for helping different levels of investors to achieve a more reliable cryptocurrency investment solution. This project was designed by the Crypto Robo Advisor team from UC Berkeley Data-X course. This project is mentored and advised by CEO of Anchain.ai, Victor Fang.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/39391660/144360945-fc017110-767c-4b2b-bb34-068eedb318ce.gif)
 
@@ -81,7 +81,10 @@ We use **crypto-markets.csv**
 - Bayesian Regression
 
 ## Team
-Our team is formed by UC Berkeley grad students:
+Our team is formed by UC Berkeley students from various majors and backgrounds:
 
-- Ian(Yijun) Chen            --*Development Engineering MDE*
-- Jiang Qu                   --*Development Engineering MDE*
+- Saahil Shangle             --*Business Administration BS, Data Science BA*
+- Ian Chen                   --*Development Engineering MDE*
+- Gabriel Khouri-Haddad      --*Computer Science BA*
+- Sora Kang                  --*Master of Design MDES*
+- Suvam Nayak                --*Data Science BA*
